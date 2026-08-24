@@ -9,21 +9,24 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow">
     <link rel="canonical" href="https://roya-governance.com/">
+    <link rel="alternate" hreflang="ar" href="https://roya-governance.com/index.html">
+    <link rel="alternate" hreflang="en" href="https://roya-governance.com/index-en.html">
     <meta property="og:type" content="website">
     <meta property="og:title" content="رؤية الحوكمة | استشارات الحوكمة والمخاطر والالتزام">
-    <meta property="og:description" content="شركة رؤية الحوكمة للاستشارات المتخصصة في مجال الحوكمة والمخاطر والالتزام. نقدم حلولاً متكاملة لتعزيز منظومة الحوكمة المؤسسية وإدارة المخاطر وفق أفضل الممارسات العالمية.">
+    <meta property="og:description" content="شركة رؤية الحوكمة للاستشارات المتخصصة في مجال الحوكمة والمخاطر والالتزام">
     <meta property="og:image" content="https://roya-governance.com/og-image.jpg">
     <meta property="og:url" content="https://roya-governance.com/">
     <meta property="og:site_name" content="رؤية الحوكمة">
     <meta property="og:locale" content="ar_SA">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="رؤية الحوكمة | استشارات الحوكمة والمخاطر والالتزام">
-    <meta name="twitter:description" content="شركة رؤية الحوكمة للاستشارات المتخصصة في مجال الحوكمة والمخاطر والالتزام.">
+    <meta name="twitter:description" content="شركة رؤية الحوكمة للاستشارات المتخصصة في مجال الحوكمة والمخاطر والالتزام">
     <meta name="twitter:image" content="https://roya-governance.com/og-image.jpg">
     <title>رؤية الحوكمة | استشارات الحوكمة والمخاطر والالتزام</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231a365d'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='%23d4af37' font-family='Arial' font-weight='bold' font-size='28'%3ER%3C/text%3E%3C/svg%3E">
     <!-- Google Analytics (GA4) - استبدل G-XXXXXXXXXX بمعرّف القياس الخاص بك -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
@@ -41,7 +44,7 @@
       "alternateName": "Roya Governance",
       "description": "شركة استشارات متخصصة في الحوكمة والمخاطر والالتزام",
       "url": "https://roya-governance.com",
-      "telephone": "+96611XXXXXXX",
+      "telephone": "+966505730337",
       "email": "info@roya-governance.com",
       "address": {
         "@type": "PostalAddress",
@@ -92,6 +95,16 @@
             --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
+        [data-theme="dark"] {
+            --primary: #e2e8f0;
+            --primary-light: #f7fafc;
+            --accent: #e2e8f0;
+            --light: #1a202c;
+            --gray: #a0aec0;
+            --white: #1a202c;
+            --gradient: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -108,6 +121,7 @@
             color: var(--accent);
             line-height: 1.8;
             overflow-x: hidden;
+            transition: background 0.3s, color 0.3s;
         }
 
         /* Navigation */
@@ -128,6 +142,10 @@
             background: rgba(255,255,255,0.98);
             box-shadow: var(--shadow);
             padding: 0.7rem 5%;
+        }
+
+        [data-theme="dark"] .navbar.scrolled {
+            background: rgba(26,32,44,0.98);
         }
 
         .nav-logo {
@@ -226,7 +244,7 @@
             gap: 0.8rem;
         }
 
-        .lang-toggle {
+        .lang-toggle, .theme-toggle {
             background: rgba(26,54,93,0.1);
             border: 2px solid var(--primary);
             color: var(--primary);
@@ -242,9 +260,13 @@
             gap: 5px;
         }
 
-        .lang-toggle:hover {
+        .lang-toggle:hover, .theme-toggle:hover {
             background: var(--primary);
             color: var(--white);
+        }
+
+        .theme-toggle {
+            padding: 0.4rem 0.7rem;
         }
 
         /* Hero Section */
@@ -326,7 +348,7 @@
 
         .btn-primary {
             background: var(--gradient-gold);
-            color: var(--primary);
+            color: #1a365d;
             padding: 1rem 2.5rem;
             border-radius: 50px;
             text-decoration: none;
@@ -430,7 +452,7 @@
             align-items: center;
             justify-content: center;
             font-size: 3rem;
-            color: var(--primary);
+            color: #1a365d;
             box-shadow: 0 0 60px rgba(201,162,39,0.4);
         }
 
@@ -572,7 +594,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            color: var(--primary);
+            color: #1a365d;
             font-size: 1.5rem;
         }
 
@@ -785,7 +807,7 @@
             align-items: center;
             justify-content: center;
             font-size: 1.4rem;
-            color: var(--primary);
+            color: #1a365d;
             margin: 0 auto 1.2rem;
         }
 
@@ -1102,7 +1124,7 @@
 
         /* Footer */
         .footer {
-            background: var(--accent);
+            background: #2d3748;
             color: var(--white);
             padding: 4rem 5% 2rem;
         }
@@ -1144,7 +1166,7 @@
 
         .footer-social a:hover {
             background: var(--secondary);
-            color: var(--primary);
+            color: #1a365d;
             transform: translateY(-3px);
         }
 
@@ -1185,62 +1207,20 @@
 
         /* Mobile Responsive */
         @media (max-width: 1024px) {
-            .hero-grid {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-            
-            .hero-content p {
-                margin: 0 auto 2rem;
-            }
-            
-            .hero-buttons {
-                justify-content: center;
-            }
-            
-            .hero-visual {
-                display: none;
-            }
-            
-            .hero-stats {
-                justify-content: center;
-            }
-            
-            .about-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .services-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
-            .why-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
-            .process-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
-            .process-grid::before {
-                display: none;
-            }
-            
-            .cert-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
-            .testimonials-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .contact-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .footer-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
+            .hero-grid { grid-template-columns: 1fr; text-align: center; }
+            .hero-content p { margin: 0 auto 2rem; }
+            .hero-buttons { justify-content: center; }
+            .hero-visual { display: none; }
+            .hero-stats { justify-content: center; }
+            .about-grid { grid-template-columns: 1fr; }
+            .services-grid { grid-template-columns: repeat(2, 1fr); }
+            .why-grid { grid-template-columns: repeat(2, 1fr); }
+            .process-grid { grid-template-columns: repeat(2, 1fr); }
+            .process-grid::before { display: none; }
+            .cert-grid { grid-template-columns: repeat(2, 1fr); }
+            .testimonials-grid { grid-template-columns: 1fr; }
+            .contact-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: repeat(2, 1fr); }
         }
 
         @media (max-width: 768px) {
@@ -1255,51 +1235,17 @@
                 padding: 2rem;
                 box-shadow: var(--shadow-lg);
             }
-            
-            .nav-links.active {
-                display: flex;
-            }
-            
-            .menu-toggle {
-                display: block;
-            }
-            
-            .hero-content h1 {
-                font-size: 2.2rem;
-            }
-            
-            .section-title {
-                font-size: 1.8rem;
-            }
-            
-            .services-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .why-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .process-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .cert-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .form-row {
-                grid-template-columns: 1fr;
-            }
-            
-            .footer-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .hero-stats {
-                flex-direction: column;
-                gap: 1.5rem;
-            }
+            .nav-links.active { display: flex; }
+            .menu-toggle { display: block; }
+            .hero-content h1 { font-size: 2.2rem; }
+            .section-title { font-size: 1.8rem; }
+            .services-grid { grid-template-columns: 1fr; }
+            .why-grid { grid-template-columns: 1fr; }
+            .process-grid { grid-template-columns: 1fr; }
+            .cert-grid { grid-template-columns: 1fr; }
+            .form-row { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .hero-stats { flex-direction: column; gap: 1.5rem; }
         }
 
         /* Animations */
@@ -1337,6 +1283,57 @@
         .whatsapp-float:hover {
             transform: scale(1.1);
         }
+
+        /* Cookie Banner */
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #1a202c;
+            color: var(--white);
+            padding: 1.5rem 5%;
+            z-index: 10000;
+            display: none;
+            box-shadow: 0 -5px 30px rgba(0,0,0,0.3);
+        }
+
+        .cookie-banner.show {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .cookie-banner p {
+            flex: 1;
+            min-width: 250px;
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.8);
+        }
+
+        .cookie-banner a {
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .cookie-banner .btn-cookie {
+            background: var(--secondary);
+            color: #1a365d;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 700;
+            cursor: pointer;
+            font-family: 'Tajawal', sans-serif;
+            transition: var(--transition);
+        }
+
+        .cookie-banner .btn-cookie:hover {
+            background: var(--secondary-light);
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 <body>
@@ -1354,12 +1351,16 @@
             <li><a href="#services">خدماتنا</a></li>
             <li><a href="#process">منهجيتنا</a></li>
             <li><a href="#testimonials">آراء العملاء</a></li>
+            <li><a href="privacy.html">سياسة الخصوصية</a></li>
             <li><a href="#contact" class="nav-cta">تواصل معنا</a></li>
         </ul>
         <div class="nav-actions">
             <button class="lang-toggle" id="langToggle" title="Switch to English">
                 <i class="fas fa-globe"></i>
                 <span id="langLabel">EN</span>
+            </button>
+            <button class="theme-toggle" id="themeToggle" title="تبديل المظهر">
+                <i class="fas fa-moon" id="themeIcon"></i>
             </button>
             <button class="menu-toggle" id="menuToggle">
                 <i class="fas fa-bars"></i>
@@ -1668,7 +1669,7 @@
                     <div class="testimonial-avatar">م</div>
                     <div class="testimonial-info">
                         <h4>منصور العتيبي</h4>
-                        <span>الرئيس التنفيذي - مجموعة النخبة</span>
+                        <span>President التنفيذي - مجموعة النخبة</span>
                     </div>
                 </div>
             </div>
@@ -1768,48 +1769,48 @@
               <form id="contactForm" action="https://formsubmit.co/ajax/AALSAHLI5512@GMAIL.COM" method="POST">
                   <input type="hidden" name="_subject" value="رسالة جديدة من موقع رؤية الحوكمة">
                   <input type="hidden" name="_captcha" value="false">
-                <div class="form-row">
-                  <div class="form-group">
-                    <label>الاسم الكامل</label>
-                    <input type="text" name="name" placeholder="أدخل اسمك الكامل" required>
+                  <div class="form-row">
+                      <div class="form-group">
+                          <label>الاسم الكامل</label>
+                          <input type="text" name="name" placeholder="أدخل اسمك الكامل" required>
+                      </div>
+                      <div class="form-group">
+                          <label>البريد الإلكتروني</label>
+                          <input type="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+                      </div>
+                  </div>
+                  <div class="form-row">
+                      <div class="form-group">
+                          <label>رقم الجوال</label>
+                          <input type="tel" name="phone" placeholder="05XXXXXXXX" required>
+                      </div>
+                      <div class="form-group">
+                          <label>الشركة</label>
+                          <input type="text" name="company" placeholder="اسم الشركة">
+                      </div>
                   </div>
                   <div class="form-group">
-                    <label>البريد الإلكتروني</label>
-                    <input type="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+                      <label>الخدمة المطلوبة</label>
+                      <select name="service" required>
+                          <option value="">اختر الخدمة</option>
+                          <option value="governance">حوكمة الشركات</option>
+                          <option value="risk">إدارة المخاطر</option>
+                          <option value="compliance">الالتزام المؤسسي</option>
+                          <option value="aml">مكافحة غسل الأموال</option>
+                          <option value="audit">التدقيق الداخلي</option>
+                          <option value="training">التدريب والتطوير</option>
+                          <option value="other">أخرى</option>
+                      </select>
                   </div>
-                </div>
-                <div class="form-row">
                   <div class="form-group">
-                    <label>رقم الجوال</label>
-                    <input type="tel" name="phone" placeholder="05XXXXXXXX" required>
+                      <label>رسالتك</label>
+                      <textarea name="message" placeholder="اكتب تفاصيل طلبك هنا..."></textarea>
                   </div>
-                  <div class="form-group">
-                    <label>الشركة</label>
-                    <input type="text" name="company" placeholder="اسم الشركة">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label>الخدمة المطلوبة</label>
-                  <select name="service" required>
-                    <option value="">اختر الخدمة</option>
-                    <option value="governance">حوكمة الشركات</option>
-                    <option value="risk">إدارة المخاطر</option>
-                    <option value="compliance">الالتزام المؤسسي</option>
-                    <option value="aml">مكافحة غسل الأموال</option>
-                    <option value="audit">التدقيق الداخلي</option>
-                    <option value="training">التدريب والتطوير</option>
-                    <option value="other">أخرى</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <label>رسالتك</label>
-                  <textarea name="message" placeholder="اكتب تفاصيل طلبك هنا..."></textarea>
-                </div>
-                <button type="submit" class="btn-primary" style="width:100%; justify-content:center;">
-                  <i class="fas fa-paper-plane"></i>
-                  <span id="btnText">إرسال الطلب</span>
-                </button>
-                <div id="formMessage" style="display:none; margin-top:1rem; padding:1rem; border-radius:8px; text-align:center;"></div>
+                  <button type="submit" class="btn-primary" style="width:100%; justify-content:center;">
+                      <i class="fas fa-paper-plane"></i>
+                      <span id="btnText">إرسال الطلب</span>
+                  </button>
+                  <div id="formMessage" style="display:none; margin-top:1rem; padding:1rem; border-radius:8px; text-align:center;"></div>
               </form>
             </div>
         </div>
@@ -1839,7 +1840,7 @@
                     <li><a href="#home">الرئيسية</a></li>
                     <li><a href="#about">من نحن</a></li>
                     <li><a href="#services">خدماتنا</a></li>
-                    <li><a href="#process">منهجيتنا</a></li>
+                    <li><a href="privacy.html">سياسة الخصوصية</a></li>
                     <li><a href="#contact">تواصل معنا</a></li>
                 </ul>
             </div>
@@ -1856,8 +1857,8 @@
             <div class="footer-column">
                 <h3>تواصل معنا</h3>
                 <ul>
-                    <li><a href="#">+966 11 XXX XXXX</a></li>
-                    <li><a href="#">info@roya-governance.com</a></li>
+                    <li><a href="tel:+966505730337">+966 50 573 0337</a></li>
+                    <li><a href="mailto:info@roya-governance.com">info@roya-governance.com</a></li>
                     <li><a href="#">الرياض، المملكة العربية السعودية</a></li>
                 </ul>
             </div>
@@ -1872,7 +1873,50 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
+    <!-- Cookie Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+        <p>نستخدم ملفات تعريف الارتباط لتحسين تجربتك. باستخدامك لهذا الموقع، فإنك توافق على <a href="privacy.html">سياسة الخصوصية</a>.</p>
+        <button class="btn-cookie" id="acceptCookies">موافق</button>
+    </div>
+
     <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            themeIcon.classList.remove('fa-moon');
+            themeIcon.classList.add('fa-sun');
+        }
+        
+        themeToggle.addEventListener('click', function() {
+            if (document.documentElement.getAttribute('data-theme') === 'dark') {
+                document.documentElement.removeAttribute('data-theme');
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+                localStorage.setItem('theme', 'light');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+
+        // Cookie Banner
+        const cookieBanner = document.getElementById('cookieBanner');
+        const acceptCookies = document.getElementById('acceptCookies');
+        
+        if (!localStorage.getItem('cookiesAccepted')) {
+            setTimeout(() => cookieBanner.classList.add('show'), 1000);
+        }
+        
+        acceptCookies.addEventListener('click', function() {
+            localStorage.setItem('cookiesAccepted', 'true');
+            cookieBanner.classList.remove('show');
+        });
+
         // Navbar scroll effect
         window.addEventListener('scroll', function() {
             const navbar = document.getElementById('navbar');
@@ -1931,7 +1975,7 @@
             observer.observe(el);
         });
 
-        // Form submission with FormSubmit.co
+        // Form submission
         document.getElementById('contactForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             const form = this;
