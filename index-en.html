@@ -718,6 +718,83 @@
             font-size: 0.8rem;
         }
 
+        /* CEO Section */
+        .ceo-section {
+            background: var(--light);
+            padding: 6rem 5%;
+        }
+
+        .ceo-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .ceo-image-wrapper {
+            text-align: center;
+        }
+
+        .ceo-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--secondary);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .ceo-name {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-top: 1.5rem;
+        }
+
+        .ceo-title {
+            font-size: 1rem;
+            color: var(--secondary);
+            font-weight: 600;
+        }
+
+        .ceo-content h2 {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            line-height: 1.3;
+        }
+
+        .ceo-content p {
+            color: var(--gray);
+            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
+            line-height: 2;
+            text-align: justify;
+        }
+
+        .ceo-signature {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--secondary);
+            display: inline-block;
+        }
+
+        @media (max-width: 768px) {
+            .ceo-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .ceo-image {
+                width: 200px;
+                height: 200px;
+            }
+        }
+
         /* Why Us Section */
         .why-us {
             background: var(--gradient);
@@ -1543,6 +1620,24 @@
         </div>
     </section>
 
+    <!-- CEO Section -->
+    <section class="section ceo-section">
+        <div class="ceo-container">
+            <div class="ceo-image-wrapper fade-in">
+                <img src="assets/ceo.jpg" alt="Abdul Karim Al-Harbi - CEO" class="ceo-image">
+                <div class="ceo-name">Abdul Karim Al-Harbi</div>
+                <div class="ceo-title">CEO</div>
+            </div>
+            <div class="ceo-content fade-in">
+                <h2>CEO Message</h2>
+                <p>In a world where regulatory variables are accelerating and institutional challenges are increasing, effective governance, risk management, and compliance have become fundamental pillars for the success and sustainability of institutions, and are no longer just regulatory requirements or formal procedures. From this perspective, "Roya for Governance, Risk & Compliance" was established to be a trusted professional partner, contributing to building more efficient, transparent institutions capable of facing changes.</p>
+                <p>We believe that each institution has its own nature, challenges, and goals; therefore, we are keen to provide practical and integrated solutions designed according to the needs of each client, taking into account its regulatory and operational environment. Our work includes developing governance frameworks, enhancing risk management and compliance, raising internal audit efficiency, building policies and procedures, and qualifying leaders and cadres; to achieve sustainable institutional value.</p>
+                <p>We also believe that the success of governance is not achieved by preparing documents and regulations alone, but requires transforming them into clear and established practices that reflect on the quality of decisions, clarity of powers and responsibilities, enhancing accountability, and protecting the interests of stakeholders. Therefore, we work with our clients from the stage of diagnosing the current situation and identifying gaps, through designing and implementing solutions, to follow-up, measuring impact, and continuous improvement.</p>
+                <p>We are committed in all our work to the highest standards of professionalism, integrity, and confidentiality, while benefiting from the best local and international practices, providing applicable solutions that comply with relevant regulations and legislation and support the strategic objectives of the institution.</p>
+                <p>Our ambition is to be the first choice for institutions seeking institutional excellence and sustainability, and to build long-term partnerships with our clients based on trust, quality, and achieving results. We are pleased to be part of your institutions' journey towards more mature governance, more disciplined risks, and more effective compliance.</p>
+                <div class="ceo-signature">Abdul Karim Al-Harbi</div>
+            </div>
+        </div>
     <!-- Why Us Section -->
     <section class="section why-us">
         <div class="section-header">
