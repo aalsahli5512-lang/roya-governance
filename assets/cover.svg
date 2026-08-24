@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f2340;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bg)"/>
+  
+  <!-- Geometric pattern -->
+  <g opacity="0.08">
+    <polygon points="100,50 150,25 150,75 100,100" fill="#ffffff"/>
+    <polygon points="200,50 250,25 250,75 200,100" fill="#ffffff"/>
+    <polygon points="300,50 350,25 350,75 300,100" fill="#ffffff"/>
+    <polygon points="100,150 150,125 150,175 100,200" fill="#ffffff"/>
+    <polygon points="200,150 250,125 250,175 200,200" fill="#ffffff"/>
+    <polygon points="300,150 350,125 350,175 300,200" fill="#ffffff"/>
+    <polygon points="100,250 150,225 150,275 100,300" fill="#ffffff"/>
+    <polygon points="200,250 250,225 250,275 200,300" fill="#ffffff"/>
+    <polygon points="300,250 350,225 350,275 300,300" fill="#ffffff"/>
+    <polygon points="1200,50 1250,25 1250,75 1200,100" fill="#ffffff"/>
+    <polygon points="1300,50 1350,25 1350,75 1300,100" fill="#ffffff"/>
+    <polygon points="1400,50 1450,25 1450,75 1400,100" fill="#ffffff"/>
+    <polygon points="1200,150 1250,125 1250,175 1200,200" fill="#ffffff"/>
+    <polygon points="1300,150 1350,125 1350,175 1300,200" fill="#ffffff"/>
+    <polygon points="1400,150 1450,125 1450,175 1400,200" fill="#ffffff"/>
+    <polygon points="1200,250 1250,225 1250,275 1200,300" fill="#ffffff"/>
+    <polygon points="1300,250 1350,225 1350,275 1300,300" fill="#ffffff"/>
+    <polygon points="1400,250 1450,225 1450,275 1400,300" fill="#ffffff"/>
+  </g>
+  
+  <!-- Shield Icon -->
+  <g transform="translate(1100,150)">
+    <path d="M60,0 L120,30 L120,90 Q120,150 60,180 Q0,150 0,90 L0,30 Z" fill="#c9a227"/>
+    <path d="M60,15 L108,40 L108,90 Q108,140 60,165 Q12,140 12,90 L12,40 Z" fill="#1a365d"/>
+    <path d="M60,30 L90,50 L90,85 Q90,120 60,135 Q30,120 30,85 L30,50 Z" fill="#c9a227"/>
+    <rect x="55" y="70" width="10" height="40" fill="#ffffff" rx="2"/>
+    <circle cx="60" cy="55" r="6" fill="#ffffff"/>
+  </g>
+  
+  <!-- Main Arabic Name -->
+  <text x="950" y="200" font-family="Tajawal, Arial, sans-serif" font-size="80" font-weight="bold" fill="#ffffff" text-anchor="end">رؤية</text>
+  
+  <!-- Subtitle -->
+  <text x="950" y="260" font-family="Tajawal, Arial, sans-serif" font-size="36" font-weight="500" fill="#c9a227" text-anchor="end">للحوكمة والمخاطر والالتزام</text>
+  
+  <!-- English Name -->
+  <text x="50" y="380" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff">Roya for Governance, Risk &amp; Compliance</text>
+  
+  <!-- Location -->
+  <text x="50" y="420" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="400" fill="#d4af37">GRC Consulting | Riyadh, Saudi Arabia</text>
+</svg>
