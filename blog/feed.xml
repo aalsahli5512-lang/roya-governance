@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" version="2.0">
+  <channel>
+    <title>مدونة رؤية للحوكمة والمخاطر والالتزام</title>
+    <link>https://rotya-governance.com</link>
+    <description>تحليلات مهنية حول الحوكمة، إدارة المخاطر، والامتثال المؤسسي</description>
+    <language>ar</language>
+    <lastBuildDate>Wed, 02 Sep 2026 22:03:45 +0000</lastBuildDate>
+    <atom:link href="https://rotya-governance.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>https://rotya-governance.com/assets/cover.png</image>
+    <item>
+      <title>كيف يعزّز إدارة المخاطر الاستدامة المؤسسية؟</title>
+      <link>https://rotya-governance.com/blog/risk-management-sustainability.html</link>
+      <guid isPermaLink="true">https://rotya-governance.com/blog/risk-management-sustainability.html</guid>
+      <description>تحليل عملي حول إدارة المخاطر يناسبه رؤيتكم للحوكمة والمخاطر والالتزام.</description>
+      <pubDate>Thu, 03 Sep 2026 08:00:00 +0300</pubDate>
+      <dc:creator>عبدالكريم محمد السهلي</dc:creator>
+      <category>إدارة المخاطر</category>
+      <category>GRC</category>
+      <category>حوكمة</category>
+      <category>مخاطر</category>
+      <category>التزام</category>
+      <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"># كيف يعزّز إدارة المخاطر الاستدامة المؤسسية؟
+## المقدمة
+إدارة المخاطر أصبح محوراً أساسياً لدى المؤسسات السعودية...
+## الفقرات
+1. التعريف والسياق
+2. أهميته الإستراتيجية
+3. التحديات الشائعة
+4. أفضل الممارسات
+*المصدر: توثيق داخلي - رؤية للحوكمة*</content:encoded>
+    </item>
+    <item>
+      <title>أخطأ شائع في إدارة المخاطر وكيف تجنّبها؟</title>
+      <link>https://rotya-governance.com/blog/risk-management-common-mistakes.html</link>
+      <guid isPermaLink="true">https://rotya-governance.com/blog/risk-management-common-mistakes.html</guid>
+      <description>تحليل عملي حول إدارة المخاطر يناسبه رؤيتكم للحوكمة والمخاطر والالتزام.</description>
+      <pubDate>Thu, 03 Sep 2026 08:00:00 +0300</pubDate>
+      <dc:creator>عبدالكريم محمد السهلي</dc:creator>
+      <category>إدارة المخاطر</category>
+      <category>GRC</category>
+      <category>حوكمة</category>
+      <category>مخاطر</category>
+      <category>التزام</category>
+      <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"># أخطأ شائع في إدارة المخاطر وكيف تجنّبها؟
+## المقدمة
+في ظل تطور المشهد التنظيمي، لا يمكن إغفار إدارة المخاطر...
+## الفقرات
+1. التحليل العملي
+2. أمثلة واقعية
+3. كيف نطبّق ذلك؟
+*ملاحظة: يُستند إلى تجربة عملية مع عملاء من قطاع الصحة والبنوك*</content:encoded>
+    </item>
+    <item>
+      <title>ما هي أهمية إدارة المخاطر في ظل التطورات الأمنية الحديثة؟</title>
+      <link>https://rotya-governance.com/blog/risk-management-modern-security.html</link>
+      <guid isPermaLink="true">https://rotya-governance.com/blog/risk-management-modern-security.html</guid>
+      <description>تحليل عملي حول إدارة المخاطر يناسبه رؤيتكم للحوكمة والمخاطر والالتزام.</description>
+      <pubDate>Thu, 03 Sep 2026 08:00:00 +0300</pubDate>
+      <dc:creator>عبدالكريم محمد السهلي</dc:creator>
+      <category>إدارة المخاطر</category>
+      <category>GRC</category>
+      <category>حوكمة</category>
+      <category>مخاطر</category>
+      <category>التزام</category>
+      <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"># ما هي أهمية إدارة المخاطر في ظل التطورات الأمنية الحديثة؟
+## المقدمة
+إدارة المخاطر أصبح محوراً أساسياً لدى المؤسسات السعودية...
+## الفقرات
+1. التعريف والسياق
+2. أهميته الإستراتيجية
+3. التحديات الشائعة
+4. أفضل الممارسات
+*المصدر: توثيق داخلي - رؤية للحوكمة*</content:encoded>
+    </item>
+  </channel>
+</rss>
