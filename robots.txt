@@ -1,9 +1,8 @@
 User-agent: *
 Allow: /
-Disallow: /admin/
+Disallow: /%D9%85%D9%88%D9%82%D8%B9/
+Disallow: /blog/risk-management-common-mistakes.html
+Disallow: /blog/risk-management-modern-security.html
+Disallow: /blog/risk-management-sustainability.html
 
-# Sitemap
-Sitemap: https://roya-governance.com/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 10
+Sitemap: https://aalsahli5512-lang.github.io/roya-governance/sitemap.xml
