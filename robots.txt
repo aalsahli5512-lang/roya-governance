@@ -1,9 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /admin/
 
-# Sitemap
-Sitemap: https://roya-governance.com/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 10
+Sitemap: https://aalsahli5512-lang.github.io/roya-governance/sitemap.xml
