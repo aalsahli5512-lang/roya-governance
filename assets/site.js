@@ -1,3 +1,6 @@
+const jannatStyle=document.createElement('style');
+jannatStyle.textContent=`@font-face{font-family:'HAKIM Jannat';src:local('A Jannat LT'),local('Jannat LT'),local('A Jannat LT Regular');font-style:normal;font-weight:400 900;font-display:swap}html[lang="ar"] body,html[lang="ar"] button,html[lang="ar"] input,html[lang="ar"] textarea,html[lang="ar"] select{font-family:'HAKIM Jannat','A Jannat LT','Jannat LT','Tajawal',sans-serif!important}html[lang="ar"] .hero h1{font-weight:700;letter-spacing:0}html[lang="ar"] .head h2,html[lang="ar"] .card h3,html[lang="ar"] .founder h3,html[lang="ar"] .contact h2,html[lang="ar"] .callout h3{font-weight:700}html[lang="ar"] .nav-parent,html[lang="ar"] .links a,html[lang="ar"] .btn,html[lang="ar"] .kicker,html[lang="ar"] .eyebrow{font-weight:700}`;
+document.head.appendChild(jannatStyle);
 document.getElementById('year')?.append(new Date().getFullYear());
 const menu=document.querySelector('.menu'),links=document.querySelector('.links');
 if(menu&&links){menu.addEventListener('click',()=>links.classList.toggle('open'));}
